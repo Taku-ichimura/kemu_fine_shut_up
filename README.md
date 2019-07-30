@@ -13,7 +13,7 @@ Reply to kemu and fines  "Shut up" automatically
 
 ## Usage
 
-Confirm kemufine.py and check_point.txtin exists in same directory
+__Confirm kemufine.py and check_point.txtin exists in same directory__
 
 Check_point.txt is written datetime last check
 
