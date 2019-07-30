@@ -21,9 +21,9 @@ Check_point.txt is written datetime last check
 python kemufine.py
 ~~~
 
-In default , get your mention every 30 seconds.
+In default , get your mention __every 30 seconds.__
 
-If you wants to reply as soon as possible , please change as below
+__If you wants to reply as soon as possible__ , please change as below
 
 ~~~python
 schedule.every(30).seconds.do(reply_team_fines)
