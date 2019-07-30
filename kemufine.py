@@ -16,7 +16,6 @@ check_path = './check_point.txt'
 
 target = ["Chem_ddr","fines_CNT"]
 
-
 def reply_team_fines():
     print("start")
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -36,13 +35,11 @@ def reply_team_fines():
         if((d-check_point).total_seconds()>0):
             rep_target.append(t)
             print("date update")
-
-                   
+               
     if(len(rep_target)!=0):
         with open(check_path, mode='w') as f:
             f.write(final_d)
             
-    
     for t in rep_target:
         rep_name=t.author.screen_name
         rep_id=t.id
