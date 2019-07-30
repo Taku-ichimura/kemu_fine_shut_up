@@ -31,4 +31,4 @@ schedule.every(30).seconds.do(reply_team_fines)
 schedule.every(13).seconds.do(reply_team_fines)
 ~~~
 
-You can get your mention-timeline 75/15min , so upperlimit is about 12sec(+request reply).
+You can get your mention-timeline 75times/15min , so upperlimit is about 12sec(+request reply).
